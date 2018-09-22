@@ -13,6 +13,7 @@ class ReceitaController {
    * Show a list of all receitas.
    * GET receitas
    * primeiramente, somente receitas da web
+   * depois, no proprio app
    */
   async index ({ response, params }) {
     const { q, filter } = params
