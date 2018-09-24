@@ -16,4 +16,7 @@
 /** @type {import('@adonisjs/framework/src/Route/Manager'} */
 const Route = use('Route')
 
+Route.get('/', function() {
+    return ('oi')
+})
 Route.get('search/:q/:filter', 'ReceitaController.index')
